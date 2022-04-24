@@ -21,8 +21,7 @@ namespace WpfDotNetFx461FeatureFlagsAzureAppConfig
             builder
                 .ConfigureAppConfiguration((hostingContext, configBuilder) =>
                 {
-                    var connectionString =
-                        "Endpoint=https://celarierappconfig00.azconfig.io;Id=IpUi-l2-s0:gHQ8LtGb6NhL/SREasA/;Secret=GFUUuSQYi7Kdv7Tp3VQSzzE5EbyDVsKo2DZQ6x+pLyU=";
+                    var connectionString = "Your connection string here.";
                         //configBuilder.Build().GetConnectionString("AppConfig");
 
                     // configure loading configuration from Azure App Configuration

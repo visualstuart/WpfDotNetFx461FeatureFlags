@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDotNetFx461FeatureFlagsL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDotNetFx461FeatureFlagsCommon", "WpfDotNetFx461FeatureFlagsCommon\WpfDotNetFx461FeatureFlagsCommon.csproj", "{96C79AC4-1BD4-4B8F-BC2C-231F634C7F7B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20670FCE-EAAE-4764-943A-88FF685D8DAE}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
