@@ -1,0 +1,10 @@
+﻿    <Application x:Class="WpfDotNetFx461FeatureFlagsLocalAppSettingsConfig.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfDotNetFx461FeatureFlagsLocalAppSettingsConfig"
+             Startup="Application_StartupAsync"
+             Exit="Application_ExitAsync">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
