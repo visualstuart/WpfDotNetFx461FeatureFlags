@@ -1,9 +1,9 @@
-# Sample: Feature Management on WPF on .NET Framework 4.1.6
+# Sample: Feature Management on WPF on .NET Framework 4.6.1
 
 24 April 2022
 
 This sample demonstrates using Microsoft.FeatureManagement 2.5.1 (latest) in a WPF desktop application
-that targets .NET Framework 4.1.6.
+that targets .NET Framework 4.6.1.
 The sample uses conditional feature flags, where the condition is a **targeting filter**
 and the targeted audience is an allow list of user IDs.
 
@@ -19,7 +19,7 @@ The library WpfDotNetFx461FeatureFlagsCommon contains a few types used in both a
 If the user identity is passed in a regular targeting context, most of these custom context types wouldn't be necessary.
 
 **Notes on version compatibility.** 
-* .NET Framework 4.1.6 supports .NET Standard 2.0 and no higher,
+* .NET Framework 4.6.1 supports .NET Standard 2.0 and no higher,
 see [.NET Standard 2.0](https://docs.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-2-0) in the "Select .NET Standard version" section.
 * Microsoft.Framework 2.5.1 (latest) supports .NET Standard 2.0
 * Microsoft.Extentions.Configuration.AzureAppConfiguration 5.0.0 (latest)
